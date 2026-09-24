@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Alessia Columban — AI Engineer & Product Thinker</title>
+<title>Alessia Columban — Data Scientist & AI Technologist</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -394,7 +394,7 @@
     color: rgba(255,255,255,0.6);
     font-size: 0.85rem;
     font-style: italic;
-    max-width: 300px;
+    max-width: 320px;
     text-align: center;
   }
 
@@ -489,8 +489,6 @@
     text-align: right;
   }
 
-  .about-sidebar {}
-
   .sidebar-card {
     border: 0.5px solid var(--border);
     padding: 1.5rem;
@@ -541,8 +539,6 @@
   }
 
   .exp-item:last-child { border-bottom: 0.5px solid var(--border); }
-
-  .exp-meta {}
 
   .exp-date {
     font-family: 'DM Mono', monospace;
@@ -692,6 +688,21 @@
   .project-link:hover { gap: 0.65rem; }
 
   .project-link svg { width: 12px; height: 12px; }
+
+  .project-badge-soon {
+    display: inline-flex;
+    align-items: center;
+    font-family: 'DM Mono', monospace;
+    font-size: 0.68rem;
+    color: var(--red);
+    border: 1px solid var(--red-mid);
+    background: var(--red-pale);
+    padding: 0.35rem 0.75rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-top: auto;
+    width: fit-content;
+  }
 
   /* RESEARCH FEATURE */
   .research-feature {
@@ -1062,9 +1073,6 @@
     animation: fadeUp 0.9s ease 0.5s forwards;
   }
 
-  /* HIDDEN content by lens */
-  .lens-pm, .lens-research { transition: opacity 0.3s; }
-
   /* RESPONSIVE */
   @media (max-width: 900px) {
     nav { padding: 1rem 1.5rem; }
@@ -1112,23 +1120,23 @@
 <!-- HERO -->
 <section id="hero">
   <div class="hero-text">
-    <div class="hero-eyebrow">Final year AI student · Graduating June 2026</div>
+    <div class="hero-eyebrow">Data Scientist @ YouGov (Shoppers) · AI Graduate</div>
     <h1>Building <em>intelligent</em> systems. Leading with clarity.</h1>
     <p class="hero-sub">
-      I design and deliver research-grade AI: from quantum ML pipelines to neuromorphic edge systems and translate technical complexity into decisions, products, and people who ship.
+      I design and deliver production & research-grade AI: from large-scale consumer data science pipelines at YouGov to quantum ML and edge systems — translating technical complexity into actionable products that ship.
     </p>
     <div class="hero-ctas">
       <a href="#projects" class="btn-primary">View my work →</a>
       <a href="#contact" class="btn-secondary">Get in touch</a>
     </div>
     <div class="hero-tags">
+      <span class="tag">Data Science</span>
       <span class="tag">Quantum ML</span>
+      <span class="tag">CogniPip (Founder)</span>
       <span class="tag">LLM Systems</span>
       <span class="tag">Edge AI</span>
       <span class="tag">Product Thinking</span>
       <span class="tag">Azure</span>
-      <span class="tag">Neuromorphic</span>
-      <span class="tag">RAG</span>
     </div>
   </div>
   <div class="hero-visual">
@@ -1143,7 +1151,7 @@
         <span class="stat-label">Ratings validated</span>
       </div>
       <div class="stat-item">
-        <span class="stat-num">5+</span>
+        <span class="stat-num">6+</span>
         <span class="stat-label">AI systems built</span>
       </div>
       <div class="stat-item">
@@ -1158,8 +1166,8 @@
 <div id="lens">
   <span class="lens-label">View me as</span>
   <div class="lens-options">
-    <button class="lens-btn active" onclick="setLens('pm', this)">Product Manager</button>
-    <button class="lens-btn" onclick="setLens('research', this)">AI Researcher</button>
+    <button class="lens-btn active" onclick="setLens('pm', this)">Product & Strategy</button>
+    <button class="lens-btn" onclick="setLens('research', this)">Data & AI Technologist</button>
   </div>
   <p class="lens-description" id="lensDesc">Focused on ownership, delivery, stakeholder translation & curriculum design</p>
 </div>
@@ -1174,13 +1182,13 @@
     <div class="about-grid">
       <div class="about-text">
         <p id="aboutTextPM">
-          I'm a <strong>final-year AI student</strong> with a rare blend of deep technical literacy and proven leadership. I've designed and delivered research-grade AI systems end-to-end — from requirements and architecture through to validation and stakeholder communication, mirroring the full product lifecycle.
+          I'm a <strong>Data Scientist at YouGov (Shoppers)</strong> and AI graduate with a proven track record bridging deep algorithmic execution and strategic product ownership. Founder of <strong>CogniPip</strong> (under PFA), I design, validate, and deliver intelligent systems end-to-end — from data pipelines through to stakeholder adoption.
         </p>
         <p id="aboutTextResearch" style="display:none;">
-          My research spans <strong>quantum-classical hybrid systems</strong>, neuromorphic computing for clinical diagnostics, and LLM-powered pipelines. I work with statistical rigour — bootstrap confidence intervals, effect sizes, ablation studies and build things that are deployable, not just publishable.
+          My technical practice spans <strong>enterprise data science at YouGov</strong>, quantum-classical hybrid recommendation pipelines, and neuromorphic edge systems. Completing the <strong>Code First Girls & Deutsche Bank Mid-Level Accelerator</strong>, I apply rigorous statistical validation, bootstrap confidence intervals, and scalable architectures to deliver deployable, high-impact AI.
         </p>
         <p>
-          Business-educated at <strong>ESADE</strong>, multilingual across three languages, and experienced founding and leading organisations from scratch. I've taught AI to nine-year-olds and presented quantum ML findings to research panels the translation skill is the same.
+          Business-educated at <strong>ESADE</strong>, active in <strong>Women2Invest</strong>, multilingual across three languages, and experienced founding and leading initiatives from scratch. Whether mentoring youth with <strong>Cartea Daliei</strong> or presenting quantum benchmarks to research panels, the core translation skill remains constant.
         </p>
         <div class="about-languages">
           <p style="font-size:0.7rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--ink-muted);margin-bottom:0.5rem;">Languages</p>
@@ -1196,19 +1204,20 @@
             <li>End-to-end project ownership</li>
             <li>Requirements definition</li>
             <li>Stakeholder communication</li>
-            <li>Scope management</li>
-            <li>Iterative validation</li>
+            <li>Scope & roadmap management</li>
+            <li>Iterative validation & metrics</li>
             <li>Failure mode analysis</li>
           </ul>
         </div>
         <div class="sidebar-card">
           <h3>Technical</h3>
           <ul class="competency-list">
+            <li>Data Science & Shopper Analytics</li>
             <li>AI/ML · LLMs · RAG · Embeddings</li>
             <li>Quantum ML (Qiskit, PennyLane)</li>
-            <li>SNNs · Neuromorphic computing</li>
+            <li>SNNs · Neuromorphic Edge AI</li>
             <li>Azure Cloud · REST APIs · MLOps</li>
-            <li>PyTorch · Scikit-learn · Pandas</li>
+            <li>Python · PyTorch · Scikit-learn · Pandas</li>
           </ul>
         </div>
       </div>
@@ -1224,6 +1233,33 @@
       <h2>Experience</h2>
     </div>
 
+    <!-- YOUGOV -->
+    <div class="exp-item">
+      <div class="exp-meta">
+        <div class="exp-date">Aug 2026 – Present</div>
+        <div class="exp-org">YouGov (Shoppers)</div>
+      </div>
+      <div class="exp-body">
+        <h3>Data Scientist</h3>
+        <p>Joined YouGov on August 11th, 2026, within the Shoppers division. Developing robust data science pipelines and machine learning workflows to extract deep behavioral consumer insights and support high-precision shopper analytics.</p>
+        <div class="exp-highlight">Focus: Large-scale consumer telemetry, shopper behavior modeling, and enterprise data pipelines</div>
+      </div>
+    </div>
+
+    <!-- COGNIPIP / PFA -->
+    <div class="exp-item">
+      <div class="exp-meta">
+        <div class="exp-date">2026 – Present</div>
+        <div class="exp-org">CogniPip (PFA)</div>
+      </div>
+      <div class="exp-body">
+        <h3>Founder & Creator</h3>
+        <p>Established an independent PFA structure to develop and launch <strong>CogniPip</strong>, a modern digital education platform designed to make computational thinking and AI intuitive for children. Driving end-to-end product scoping, pedagogical engineering, and platform development.</p>
+        <div class="exp-highlight">Venture: Child-centric AI literacy, neurodivergent-friendly interaction design, and visual learning systems</div>
+      </div>
+    </div>
+
+    <!-- ALGOMA / MITACS -->
     <div class="exp-item">
       <div class="exp-meta">
         <div class="exp-date">Feb – May 2026</div>
@@ -1237,6 +1273,7 @@
       </div>
     </div>
 
+    <!-- THESIS HOWEST -->
     <div class="exp-item">
       <div class="exp-meta">
         <div class="exp-date">2025 – 2026</div>
@@ -1249,6 +1286,7 @@
       </div>
     </div>
 
+    <!-- INSTRUCTOR -->
     <div class="exp-item">
       <div class="exp-meta">
         <div class="exp-date">Sep 2024 – Dec 2025</div>
@@ -1260,6 +1298,7 @@
       </div>
     </div>
 
+    <!-- NGO -->
     <div class="exp-item">
       <div class="exp-meta">
         <div class="exp-date">May 2021 – Sep 2022</div>
@@ -1283,7 +1322,8 @@
 
     <div class="projects-filter">
       <button class="filter-btn active" onclick="filterProjects('all', this)">All</button>
-      <button class="filter-btn" onclick="filterProjects('research', this)">Research</button>
+      <button class="filter-btn" onclick="filterProjects('product', this)">Product & EdTech</button>
+      <button class="filter-btn" onclick="filterProjects('research', this)">Research & Quantum</button>
       <button class="filter-btn" onclick="filterProjects('llm', this)">LLM / NLP</button>
       <button class="filter-btn" onclick="filterProjects('cv', this)">Computer Vision</button>
       <button class="filter-btn" onclick="filterProjects('mlops', this)">MLOps</button>
@@ -1307,6 +1347,18 @@
 
     <div class="projects-grid">
 
+      <!-- COGNIPIP -->
+      <div class="project-card" data-category="product">
+        <div class="project-type">EdTech · Platform Venture</div>
+        <h3>CogniPip — Children's Education Platform</h3>
+        <p>An innovative educational ecosystem founded under an independent PFA to make programming, logic, and artificial intelligence accessible and captivating for young minds. Combines adaptive feedback loops with child-friendly storytelling.</p>
+        <div class="project-stack">
+          <span class="stack-tag">Python</span><span class="stack-tag">EdTech</span><span class="stack-tag">Adaptive Learning</span><span class="stack-tag">Gamified UI</span>
+        </div>
+        <div class="project-badge-soon">Launching soon</div>
+      </div>
+
+      <!-- NEUROMORPHIC -->
       <div class="project-card" data-category="research">
         <div class="project-type">Research · Neuromorphic / Edge AI</div>
         <h3>Neuromorphic Cystic Fibrosis Diagnosis</h3>
@@ -1314,9 +1366,10 @@
         <div class="project-stack">
           <span class="stack-tag">snntorch</span><span class="stack-tag">PyTorch</span><span class="stack-tag">Raspberry Pi</span><span class="stack-tag">Edge AI</span>
         </div>
-        <a href="https://github.com/AlessCol7" class="project-link">GitHub <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 10L10 2M10 2H4M10 2v6"/></svg></a>
+        <a href="https://github.com/AlessCol7" class="project-link" target="_blank">GitHub <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 10L10 2M10 2H4M10 2v6"/></svg></a>
       </div>
 
+      <!-- ATHLETES ASSIST -->
       <div class="project-card" data-category="cv">
         <div class="project-type">Computer Vision · LSTM</div>
         <h3>Athletes Assist — AI Exercise Grading</h3>
@@ -1327,6 +1380,7 @@
         <a href="https://github.com/AlessCol7/TeamProject-GradindSysAthletes" class="project-link" target="_blank">GitHub <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 10L10 2M10 2H4M10 2v6"/></svg></a>
       </div>
 
+      <!-- TAL CHATBOT -->
       <div class="project-card" data-category="llm">
         <div class="project-type">LLM · RAG · NLP</div>
         <h3>TAL Chatbot — Domain-Specific LLM Assistant</h3>
@@ -1337,6 +1391,7 @@
         <a href="https://github.com/AlessCol7/TAL" class="project-link" target="_blank">GitHub <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 10L10 2M10 2H4M10 2v6"/></svg></a>
       </div>
 
+      <!-- MOVIE SCRIPT GENERATOR -->
       <div class="project-card" data-category="llm">
         <div class="project-type">LLM · Generative AI · Backend</div>
         <h3>Movie Script Generator</h3>
@@ -1347,6 +1402,7 @@
         <a href="https://github.com/Melisaatis/MovieScriptGenerator" class="project-link" target="_blank">GitHub <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 10L10 2M10 2H4M10 2v6"/></svg></a>
       </div>
 
+      <!-- ALZHEIMER MRI -->
       <div class="project-card" data-category="mlops">
         <div class="project-type">MLOps · Cloud · Medical AI</div>
         <h3>Alzheimer's MRI Classification Pipeline</h3>
@@ -1357,6 +1413,7 @@
         <a href="https://github.com/AlessCol7/MLOps_alzheimersPublic" class="project-link" target="_blank">GitHub <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 10L10 2M10 2H4M10 2v6"/></svg></a>
       </div>
 
+      <!-- JUST POSE -->
       <div class="project-card" data-category="cv">
         <div class="project-type">Computer Vision · Pose Estimation</div>
         <h3>Just Pose</h3>
@@ -1440,36 +1497,56 @@
       <h2>Leadership & community</h2>
     </div>
     <div class="leadership-grid">
+      <!-- CARTEA DALIEI -->
+      <div class="leadership-item">
+        <div class="leadership-period">5 Oct – 21 Dec 2026</div>
+        <h3>Asociația Cartea Daliei</h3>
+        <div class="role">Volunteer Educator · AI & Python</div>
+        <p>Teaching kids AI fundamentals and computational concepts using Python, fostering early digital confidence in interactive workshops.</p>
+      </div>
+      <!-- WOMEN2INVEST -->
+      <div class="leadership-item">
+        <div class="leadership-period">2026 – Present</div>
+        <h3>Women2Invest</h3>
+        <div class="role">Selected Participant</div>
+        <p>Engaging in venture capital, startup ecosystem mechanics, and investment readiness training to empower women across deep tech and finance.</p>
+      </div>
+      <!-- ESN -->
       <div class="leadership-item">
         <div class="leadership-period">Jun 2024 – Present</div>
         <h3>ESN — Erasmus Student Network</h3>
         <div class="role">Vice-President & Secretary</div>
         <p>Organisational leadership, event coordination, member management across an international student community.</p>
       </div>
+      <!-- TECHNOVATION GIRLS -->
       <div class="leadership-item">
         <div class="leadership-period">2024 – Present</div>
         <h3>ADFABER · Technovation Girls</h3>
         <div class="role">Volunteer Mentor</div>
         <p>Coaching girls to build technology products for social impact — combining product thinking and confidence-building.</p>
       </div>
+      <!-- WIT CLUJ -->
       <div class="leadership-item">
         <div class="leadership-period">Oct 2025 – Mar 2026</div>
         <h3>Women in Tech Cluj</h3>
         <div class="role">Mentee cohort</div>
         <p>Professional development programme focused on building a career in the technology industry.</p>
       </div>
+      <!-- STEAM CLUB -->
       <div class="leadership-item">
         <div class="leadership-period">2022 – 2023</div>
         <h3>STEAM Club Romania</h3>
         <div class="role">Initiator · Organiser · Speaker</div>
         <p>Built a community STEAM initiative from zero — from concept through to event organisation and public speaking.</p>
       </div>
+      <!-- VIDELE DEBATE -->
       <div class="leadership-item">
         <div class="leadership-period">2021 – 2022</div>
         <h3>Videle Debate Club</h3>
         <div class="role">Initiator & Head Trainer</div>
         <p>Founded and trained a competitive debate programme, developing structured argumentation and critical thinking skills.</p>
       </div>
+      <!-- ESADE -->
       <div class="leadership-item">
         <div class="leadership-period">Jul 2022</div>
         <h3>ESADE University Summer School</h3>
@@ -1485,15 +1562,24 @@
   <div class="section-inner">
     <div class="section-header">
       <span class="section-num">06</span>
-      <h2>Education</h2>
+      <h2>Education & Accelerators</h2>
     </div>
 
     <div class="edu-item">
-      <div class="edu-year">Sep 2023 – Jun 2026</div>
+      <div class="edu-year">Completed Jun 2026</div>
       <div class="edu-body">
         <h3>B.Sc. Creative Technologies & Artificial Intelligence</h3>
         <div class="institution">Howest University of Applied Sciences · Kortrijk, Belgium</div>
-        <p>Major: Artificial Intelligence. Thesis: Neuromorphic Computing for Cystic Fibrosis Diagnosis — dual-task SNN system deployable on edge hardware. Graduation expected June 2026.</p>
+        <p>Major: Artificial Intelligence. Thesis: Neuromorphic Computing for Cystic Fibrosis Diagnosis — dual-task SNN system deployable on edge hardware. Degree successfully completed in June 2026.</p>
+      </div>
+    </div>
+
+    <div class="edu-item">
+      <div class="edu-year">2026</div>
+      <div class="edu-body">
+        <h3>Mid-Level Accelerator</h3>
+        <div class="institution">Code First Girls & Deutsche Bank</div>
+        <p>Intensive advanced technical program deepening scalable software engineering, financial technology integration, and enterprise computing architectures.</p>
       </div>
     </div>
 
@@ -1514,7 +1600,7 @@
   <div class="section-inner">
     <div>
       <h2>Let's build something <em>worth building.</em></h2>
-      <p>I'm graduating in June 2026 and actively looking for PM or AI research roles where technical credibility, structured thinking, and people skills create real product impact. Open to relocation.</p>
+      <p>Data Scientist at YouGov (Shoppers) and creator of CogniPip. Open to select discussions around data science, youth tech education, speaking, and AI advisory.</p>
       <a href="mailto:alessiacolumban7@yahoo.com" class="btn-primary" style="display:inline-flex;">Send me an email →</a>
     </div>
     <div class="contact-links">
@@ -1540,7 +1626,7 @@
 
 <footer>
   <p>© 2026 Alessia Columban</p>
-  <p>Graduating June 2026 · Open to opportunities</p>
+  <p>Data Scientist @ YouGov · Founder of CogniPip</p>
 </footer>
 
 <script>
@@ -1563,22 +1649,22 @@
         <li>End-to-end project ownership</li>
         <li>Requirements definition</li>
         <li>Stakeholder communication</li>
-        <li>Scope management</li>
-        <li>Iterative validation</li>
+        <li>Scope & roadmap management</li>
+        <li>Iterative validation & metrics</li>
         <li>Failure mode analysis</li>
       `;
     } else {
-      desc.textContent = 'Focused on quantum ML, neuromorphic systems, statistical validation & edge deployment';
+      desc.textContent = 'Focused on shopper telemetry, quantum ML, statistical validation & edge deployment';
       aboutPM.style.display = 'none';
       aboutResearch.style.display = '';
-      sidebarTitle.textContent = 'Research Methods';
+      sidebarTitle.textContent = 'Data & AI Methods';
       sidebarList.innerHTML = `
+        <li>Large-scale data pipelines</li>
+        <li>Consumer shopper telemetry</li>
         <li>Hypothesis-driven experimentation</li>
         <li>Bootstrap CI & effect size analysis</li>
-        <li>Ablation studies & A/B testing</li>
-        <li>NISQ circuit design</li>
-        <li>Spiking Neural Networks</li>
-        <li>Statistical rigour at scale</li>
+        <li>Quantum ML & NISQ circuit design</li>
+        <li>Spiking Neural Networks on Edge</li>
       `;
     }
   }
